@@ -16,7 +16,7 @@
               <router-link class="nav-link" to="/products">สินค้า</router-link>
             </li>
           </ul>
-         <span class="text-white p-2">สวัสดีคุณ {{username}} {{ email }}</span>
+         <span class="text-white p-2">สวัสดีคุณ {{username}} ({{ email }})</span>
           <button @click="logout" type="button" class="btn btn-outline-danger">
             Logout
           </button>
@@ -27,7 +27,7 @@
     <main class="container">
       <div class="bg-light p-5 rounded">
         <div class="col-md-7 col-lg-8">
-          <h4 class="mb-3">products</h4>
+          <h4 class="mb-3">เพิ่มข้อมูลสินค้า</h4>
 
           <div class="row g-3">
             <div class="col-6">
